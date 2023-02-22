@@ -3,6 +3,6 @@ node{
     git 'https://github.com/vikranttagunde/my-app'
   }
   stage('Compile-Package'){
-    sh 'mvn package'
+    bat 'mvn package'
   }
 }
